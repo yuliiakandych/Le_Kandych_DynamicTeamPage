@@ -1,0 +1,183 @@
+@charset "UTF-8";
+/*CSS Document*/
+
+
+@font-face {
+    font-family: 'century_gothicregular';
+    src: url('../fonts/gothic-webfont.woff2') format('woff2'),
+         url('../fonts/gothic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.hidden
+{
+	display: none;
+}
+
+body
+{
+	width: 1024px;
+	height: 700px;
+	margin: auto;
+	color: #262626;
+	background-color: #626262;
+	font-family: 'century_gothicregular';
+}
+
+#leftPart
+{
+	background-color: #333333;
+	height: 700px;
+}
+
+#container
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#mainHeader
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#mainTitle
+{
+	margin-top: 40px;
+	margin-bottom: 42px;
+	margin-left: 10px;
+}
+
+.icons
+{
+	width: 25px;
+
+}
+
+h1
+{
+	font-family: 'century_gothicregular';
+	font-weight: bold;
+	font-size: 36px;
+	color: #fff;
+}
+
+.socialMedia
+{
+	
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	margin-top: 10px;
+	margin-right: 10px;
+
+
+}
+
+.socialMediaName
+{
+	font-size: 12px;
+	color: #696969;
+	margin-bottom: 5px;
+}
+
+#yul
+{
+	margin-right: 10px;
+}
+
+#rightPart
+{
+	background-color: #fff;
+	height: 700px;
+}
+
+#yuliiaK
+{
+	font-size: 38px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+#and
+{
+	font-size: 28px;
+	font-weight: normal;
+	margin-left: 205px;
+}
+
+#LanL
+{
+	font-size: 38px;
+	font-weight: bold;
+	margin-left: 235px;	
+}
+
+#worldM
+{
+	position: relative;
+}
+
+p
+{
+	position: absolute;
+	font-weight: normal;
+	font-size: 28px;
+	align-items: center;
+	
+
+}
+
+#yulANDlan
+{
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
