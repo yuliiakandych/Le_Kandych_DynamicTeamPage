@@ -90,6 +90,11 @@ h1
 	margin-right: 10px;
 }
 
+#rightPart
+{
+	background-color: #fff;
+}
+
 #yuliiaK
 {
 	font-size: 38px;
@@ -97,11 +102,19 @@ h1
 	margin-left: 5px;
 }
 
+#and
+{
+	font-size: 28px;
+	font-weight: normal;
+	margin-left: 205px;
+}
 
-
-
-
-
+#LanL
+{
+	font-size: 38px;
+	font-weight: bold;
+	margin-left: 235px;	
+}
 
 
 
