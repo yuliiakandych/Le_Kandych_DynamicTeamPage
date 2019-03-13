@@ -11,9 +11,6 @@ let lan 	= document.querySelector('.lan')
 	bioY		= document.querySelector(".bioY")
 
 
-$(".promoText").hide().fadeIn(2000)
-$(".front").hide().delay(100).fadeIn(1000)
-$(".yuliia").hide().delay(300).fadeIn(1000)
 
 lan.addEventListener("mouseover", ()=>
 {
@@ -44,28 +41,28 @@ yuliia.addEventListener("mouseover", ()=>
 
 yuliia.addEventListener("click",()=>
 	{
-		if(bioY.style.display === "block")
+		if(bioY.style.opacity === "1")
 		{
-			$(".bioY").fadeOut()
+			bioY.style.opacity = "0"
 		}
 		else
 		{
-			$(".bioL").hide()
-			$(".bioY").fadeIn()
+			bioL.style.opacity = "0"
+			bioY.style.opacity = "1"
 		}
 		
 	})
 
 lan.addEventListener("click",()=>
 	{
-		if(bioL.style.display === "block")
+		if(bioL.style.opacity === "1")
 		{
-			$(".bioL").fadeOut()
+			bioL.style.opacity = "0"
 		}
 		else
 		{
-			$(".bioY").hide()
-			$(".bioL").fadeIn()
+			bioY.style.opacity = "0"
+			bioL.style.opacity = "1"
 		}
 		
 	})
