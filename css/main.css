@@ -21,7 +21,7 @@ body
 
 	margin: auto;
 	color: white;
-	background-color: #626262;
+	background-color: white;
 	font-family: 'century_gothicregular';
 }
 
@@ -132,6 +132,7 @@ h1, h2, h3
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 }
 #worldM
 {
@@ -142,7 +143,7 @@ h1, h2, h3
 .promoText
 {
 	position: absolute;
-	top: 500px;
+	bottom: 0;
 	padding: 40px;
 }
 
@@ -150,6 +151,7 @@ h3
 {
 	font-size: 50px;
 	padding-bottom: 20px;
+	color: white;
 }
 
 p
@@ -175,24 +177,65 @@ p
 .member
 {
 	display: flex;
+	width: 250px;
+	height: 250px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 
 
 }
 
 .member img
 {
-	width: 230px;
-	height: 230px;
+	width: 250px;
+	height: 250px;
 
 	
 }
 
+
+.lan:hover
+{
+	background: rgba(204, 18, 40, 0.8);
+	transition: .5s
+}
+
+.yuliia:hover
+{
+	background: rgba(189, 8, 165, 0.8);
+	transition: .5s
+}
+
+/*.front:hover .member::before
+{
+	content:"Lan Le";
+	color: black;
+}*/
+
 .side
 {
 	position: absolute;
-	opacity: 0;
+	display: none;
 }
 
+
+
+.bioL
+{
+	padding: 50px;
+	background: rgba(204, 18, 40, 0.8);
+	position: absolute;
+	display: none;
+}
+
+.bioY
+{
+	padding: 50px;
+	background: rgba(189, 8, 165, 0.8);
+	position: absolute;
+	display: none;
+}
 
 @media screen and (max-width: 1150px)
 {
