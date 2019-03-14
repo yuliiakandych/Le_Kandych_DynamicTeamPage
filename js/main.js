@@ -64,8 +64,8 @@ front.forEach((e,index) => e.addEventListener("click",function()
 	// set color for Yuliia
 	if(index == 1)
 	{
-	bio.style.backgroundColor = "rgba(189, 8, 165, 0.8)"
-	title[index].style.color = "rgba(189, 8, 165, 0.8)"
+	bio.style.backgroundColor = "rgba(18, 180, 205, 0.8)"
+	title[index].style.color = "rgba(18, 180, 205, 0.8)"
 	title[0].style.color = "white"
 	}
 
