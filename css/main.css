@@ -229,7 +229,11 @@ p
 	transition:1s;
 }
 
-
+.name
+{
+	transition: .5s;
+	filter: brightness(200%);
+}
 .close
 {
 	position: absolute;
