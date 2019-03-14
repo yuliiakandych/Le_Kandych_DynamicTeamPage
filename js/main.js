@@ -73,6 +73,7 @@ front.forEach((e,index) => e.addEventListener("click",function()
 	let	close		= document.querySelector(".close")
 	close.addEventListener("click",function(){ 
 		bio.style.opacity = "0"
+		title[index].style.color = "white"
 	})
 
 		
