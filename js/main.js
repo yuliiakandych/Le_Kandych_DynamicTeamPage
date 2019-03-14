@@ -14,7 +14,7 @@ let lan 		= document.querySelector('.lan')
 
 	bioArray 	= [
 					"Hi, my name is Lan. I'm from Vietnam which is a pretty nice and friendly country. I am passionate about designs, movies, music and recently codes. I want to be a Front-End Developer after I finish school at Fanshawe College. Check out my Instagram for more information.",
-					"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident ullam in vitae modi quas neque beatae mollitia ab, illo sit, pariatur explicabo aut odio repellendus aperiam et, alias quod inventore."
+					"My name is Yuliia Kandych. I was born in Ukraine in the small city near the biggest and the most beautiful river in our country. I am currently studying Interactive Media Design at Fanshawe College and it is the greatest experience in my life. Also, I like watercolor painting and rollerblading."
 					]
 
 // hover effect for Lan
