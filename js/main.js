@@ -1,5 +1,5 @@
 
-
+(()=>{
 
 console.log("aaa")
 
@@ -79,5 +79,5 @@ front.forEach((e,index) => e.addEventListener("click",function()
 		
 }))
 
-
+})()
 
